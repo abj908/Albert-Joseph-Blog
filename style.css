@@ -145,7 +145,7 @@ color: #4a90e2;
 }
 
 /* General paragraph styling in articles */
-article p, .article-content {
+article .article-content {
 font-family: 'Arial', sans-serif;
 color: #333;
 line-height: 1.8; /* Space between lines for readability */
