@@ -1,0 +1,152 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: #f4f7f8;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+/* Full-Width Header with Gradient Background */
+header {
+  text-align: center;
+  padding: 2em 1em;
+  background: linear-gradient(135deg, #6e8efb, #a777e3);
+  color: white;
+  border-radius: 0; /* No rounded corners for full-width */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.3em;
+  font-weight: 700;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  margin-top: 0.5em;
+}
+
+.contact-links a {
+  color: #f4f7f8;
+  font-size: 0.9em;
+  text-decoration: none;
+  padding: 0.3em 0.7em;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.2);
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.contact-links a:hover {
+  background: rgba(255, 255, 255, 0.4);
+  color: #333;
+}
+
+/* Main Content Styling */
+main {
+  margin: 2em auto;
+  max-width: 600px;
+  width: 90%;
+  padding: 1.5em;
+}
+
+.blog-links {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin-top: 1em;
+}
+
+/* Blog Link Styling */
+.blog-link {
+  font-size: 1.3em;
+  font-weight: 500;
+  color: #4a90e2;
+  text-decoration: none;
+  padding: 0.8em 1em;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, color 0.3s ease;
+}
+
+.blog-link:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  color: #6e8efb;
+}
+
+.blog-link:active {
+  transform: translateY(1px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer Styling */
+footer {
+  margin-top: auto;
+  background-color: #6e8efb;
+  color: white;
+  text-align: center;
+  padding: 1em;
+  width: 100%;
+}
+
+footer p {
+  font-size: 0.9em;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  header h1 {
+      font-size: 2em;
+  }
+  .blog-link {
+      font-size: 1.1em;
+  }
+}
+
+.back-link {
+  margin-top: 2em;
+  text-align: center;
+}
+
+.back-link a {
+  font-size: 1em;
+  color: #6e8efb;
+  text-decoration: none;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  background-color: #f4f7f8;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.back-link a:hover {
+  background-color: #6e8efb;
+  color: white;
+}
+
+/* Style for article content */
+article h2 {
+  font-size: 2em;
+  margin-bottom: 0.5em; /* Space below the title */
+}
+
+article p {
+  line-height: 1.6;
+  margin-bottom: 1.5em; /* Space below each paragraph */
+  color: #333;
+}
