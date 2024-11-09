@@ -137,25 +137,19 @@ footer p {
   background-color: #6e8efb;
   color: white;
 }
-
-/* Style for article content */
+/* Style for article heading */
 article h2 {
-  font-size: 2em;
-  margin-bottom: 0.5em; /* Space below the title */
+font-size: 2em;
+margin-bottom: 0.5em; /* Space below the title */
+color: #4a90e2;
 }
 
-article p {
-  line-height: 1.6;
-  margin-bottom: 1.5em; /* Space below each paragraph */
-  color: #333;
-}
-
-/* Style for article content */
-.article-content {
+/* General paragraph styling in articles */
+article p, .article-content {
 font-family: 'Arial', sans-serif;
-max-width: 70ch; /* Limits line length to around 70 characters */
-line-height: 1.8; /* Adds more space between lines for readability */
-margin-bottom: 1.5em; /* Space below each paragraph */
 color: #333;
+line-height: 1.8; /* Space between lines for readability */
+margin-bottom: 0.1em; /* Space below each paragraph */
+max-width: 70ch; /* Limits line length to around 70 characters */
 white-space: pre-wrap; /* Preserves whitespace and line breaks */
 }
